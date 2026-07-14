@@ -1145,3 +1145,43 @@ button.roll {
     }
 
 }
+@media (max-width: 480px) {
+
+    body {
+        padding: 0;
+    }
+
+    div#root {
+        width: 100%;
+        max-width: 100%;
+    }
+
+    main {
+        width: 100%;
+        min-height: 100vh;
+        border-radius: 0;
+        padding: 20px 15px;
+    }
+
+    .dice-container {
+        gap: 12px;
+        width: 100%;
+        justify-content: center;
+    }
+
+    .dice-container button {
+        width: 55px;
+        height: 55px;
+        font-size: 1.5rem;
+    }
+
+    .login-card {
+        width: 90%;
+        padding: 25px;
+    }
+
+    .login-title {
+        font-size: 38px;
+    }
+
+}
